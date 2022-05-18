@@ -28,10 +28,16 @@ button {
     border-radius: 5px;
 }
 
-#increment__btn {
-    background: darkred;
+button:active {
+    transition: ease-in 200ms;
+    filter: brightness(50%);
+    transition: ease-out 200ms;
 }
 
-#save-btn {
+#increment__btn {
+    background: #8b0000;
+}
+
+#save__btn {
     background: darkgreen;
 }
