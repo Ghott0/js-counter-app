@@ -9,5 +9,7 @@ function increment() {
 }
 
 function save() {
-    console.log(countEl)
+    console.log(count)
 }
+
+save()
